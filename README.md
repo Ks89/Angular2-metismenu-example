@@ -3,6 +3,14 @@
 
 A small example of how to use metismenu inside an angular2 component
    
+
+##How to use it
+
+- install node.js
+- install http-server with "npm install -g http-server"
+- run http-server inside the main folder of this project with "http-server"
+- done (visit the address used by http-server)
+
    
 ## License   
    
