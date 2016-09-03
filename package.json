@@ -1,0 +1,30 @@
+{
+  "name": "metismenu-example",
+  "description": "Example of metismenu usage with angular",
+  "homepage": "https://www.fake.it",
+  "private": true,
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "engines": {
+    "npm": ">=2.14.x"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.6",
+    "@angular/compiler": "2.0.0-rc.6",
+    "@angular/core": "2.0.0-rc.6",
+    "@angular/platform-browser": "2.0.0-rc.6",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.6",
+    "@angular/router": "3.0.0-rc.2",
+    "es6-shim": "^0.35.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.11",
+    "systemjs": "^0.19.37",
+    "zone.js": "^0.6.17"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "0.0.31",
+    "@types/reflect-metadata": "0.0.3",
+    "typescript": "^2.0.2"
+  }
+}
