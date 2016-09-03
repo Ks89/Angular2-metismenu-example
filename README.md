@@ -4,6 +4,8 @@
 A small example of how to use metismenu inside an angular2 component
    
    
+## License   
+   
    Copyright 2016 Stefano Cappa
 
    Licensed under the Apache License, Version 2.0 (the "License");
