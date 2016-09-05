@@ -10,6 +10,8 @@ declare var jQuery:any;
 })
 export default class HomeComponent {
 
+  values: Array<string> = ['2','3','4','5'];
+
   ngAfterViewInit() {
     jQuery("#menu").metisMenu();
   }
