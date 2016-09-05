@@ -10,23 +10,10 @@
       </ul>
     </li>
     <li *ngFor="let val of values">
-      <a href="#" aria-expanded="false">Menu {{val}} (start as collapsed)</a>
+      <a href="#" aria-expanded="false">Menu {{val.val}} (start as collapsed)</a>
       <ul aria-expanded="false">
-        <li><a href="#" aria-expanded="false">Submenu{{val}}1</a></li>
-        <li><a href="#" aria-expanded="false">Submenu{{val}}2</a></li>
-        <li>
-          <a href="#" aria-expanded="false">Submenu{{val}}3</a>
-          <ul aria-expanded="false">
-            <li><a href="#" aria-expanded="false">Submenu{{val}}31</a></li>
-            <li><a href="#" aria-expanded="false">Submenu{{val}}32</a></li>
-            <li>
-              <a href="#" aria-expanded="false">Submenu{{val}}33</a>
-              <ul aria-expanded="false">
-                <li><a href="#" aria-expanded="false">Submenu{{val}}331</a></li>
-                <li><a href="#" aria-expanded="false">Submenu{{val}}332</a></li>
-              </ul>
-            </li>
-          </ul>
+        <li *ngFor="let child of val.arr">
+          <a href="#" aria-expanded="false">Submenu{{val.val}}{{child}}</a>
         </li>
       </ul>
     </li>
