@@ -13,7 +13,7 @@
       <a href="#" aria-expanded="false">Menu {{val.val}} (start as collapsed)</a>
       <ul aria-expanded="false">
         <li *ngFor="let child of val.arr">
-          <a href="#" aria-expanded="false">Submenu{{val.val}}{{child}}</a>
+          <a href="/example/{{val.val}}/{{child}}" aria-expanded="false">Submenu{{val.val}}{{child}}</a>
         </li>
       </ul>
     </li>
