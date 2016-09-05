@@ -1,4 +1,4 @@
-# Angular2 MetisMenu Example (Updated to RC6)
+# Angular2 MetisMenu Example
 
 
 A small example of how to use metismenu inside an angular2 component
