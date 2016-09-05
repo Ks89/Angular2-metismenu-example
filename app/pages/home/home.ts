@@ -1,5 +1,6 @@
 import {Component, AfterViewInit} from '@angular/core';
 import {Observable} from "rxjs/Observable";
+import {ValuesService} from '../../common/services/values.service';
 
 declare var jQuery:any;
 
@@ -18,10 +19,20 @@ export default class HomeComponent {
   ];
 
   ngAfterViewInit() {
-    jQuery("#menu").metisMenu();
+    //jQuery("#menu").metisMenu();
   }
 
-  constructor() {
-
+  constructor(private valuesService: ValuesService) {
+    this.valuesService.getValuesToGenerateValuesArray().subscribe(
+      res => {
+        console.log(res);
+        // NOT WORKING
+        jQuery("#menu").metisMenu();
+      },
+      err => {
+        console.log(err);
+      },
+      () => console.log("done")
+    );
   }
 }

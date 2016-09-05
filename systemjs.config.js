@@ -19,6 +19,7 @@ System.config({
     'app'                                : {main: 'main', defaultExtension: 'ts'},
     'rxjs'                               : {main: 'index'},
     '@angular/common'                    : {main: 'common.umd.min.js'},
+    '@angular/http'                      : {main: 'http.umd.min.js'},
     '@angular/compiler'                  : {main: 'compiler.umd.min.js'},
     '@angular/core'                      : {main: 'core.umd.min.js'},
     '@angular/platform-browser'          : {main: 'platform-browser.umd.min.js'},
